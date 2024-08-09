@@ -8,20 +8,28 @@ const mongoose = require('mongoose');
 dotenv.config();
 
 // Connect to MongoDB Atlas
-mongoose.connect(process.env.MONGO_URI, {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-}).then(() => {
-  console.log('Connected to MongoDB Atlas');
-}).catch((error) => {
-  console.error('Error connecting to MongoDB Atlas:', error);
-});
+mongoose.connect(process.env.MONGO_URI)
+  .then(() => {
+    console.log('Connected to MongoDB Atlas');
+  })
+  .catch((error) => {
+    console.error('Error connecting to MongoDB Atlas:', error);
+  });
+
 
 // Create Express app
 const app = express();
 
 // Middlewares
 app.use(cors());
+
+// Enable CORS to allow requests from different domains or ports
+app.use(cors({
+  origin: '*',  // Or specify your frontend's domain
+  methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  credentials: true, // If you are dealing with cookies or authentication tokens
+}));
+
 app.use(express.json());
 
 // Static files access
