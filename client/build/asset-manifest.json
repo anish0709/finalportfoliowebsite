@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.ef54dbe1.css",
-    "main.js": "/static/js/main.2731c651.js",
+    "main.js": "/static/js/main.ad5bb070.js",
     "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
     "static/media/Evolution-of-Coding-scaled.jpg": "/static/media/Evolution-of-Coding-scaled.86e61270b944a4b828e8.jpg",
     "static/media/anish-singhal.pdf": "/static/media/anish-singhal.7a1be0bb68701ea213bd.pdf",
     "static/media/photo (1)-min (1).jpg": "/static/media/photo (1)-min (1).e4c65c1307d4f4fac823.jpg",
     "index.html": "/index.html",
     "main.ef54dbe1.css.map": "/static/css/main.ef54dbe1.css.map",
-    "main.2731c651.js.map": "/static/js/main.2731c651.js.map",
+    "main.ad5bb070.js.map": "/static/js/main.ad5bb070.js.map",
     "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ef54dbe1.css",
-    "static/js/main.2731c651.js"
+    "static/js/main.ad5bb070.js"
   ]
 }
