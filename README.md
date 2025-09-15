@@ -1,2 +1,2 @@
-# mern-portfolio-website
+# portfolio-website
 This is my portfolio website.
